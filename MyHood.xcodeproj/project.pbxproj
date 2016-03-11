@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8851C5401C92503D004C066B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8851C53F1C92503D004C066B /* DataService.swift */; };
 		887192F51C9205BD008D6D9C /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887192F41C9205BD008D6D9C /* AddPostVC.swift */; };
 		88FF13CC1C91518D0095064F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF13CB1C91518D0095064F /* AppDelegate.swift */; };
 		88FF13CE1C91518D0095064F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FF13CD1C91518D0095064F /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8851C53F1C92503D004C066B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		887192F41C9205BD008D6D9C /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 		88FF13C81C91518D0095064F /* MyHood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88FF13CB1C91518D0095064F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8851C53E1C925024004C066B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8851C53F1C92503D004C066B /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		887192F31C920560008D6D9C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +79,7 @@
 		88FF13CA1C91518D0095064F /* MyHood */ = {
 			isa = PBXGroup;
 			children = (
+				8851C53E1C925024004C066B /* Services */,
 				887192F31C920560008D6D9C /* Controller */,
 				88FF13E01C915B7A0095064F /* View */,
 				88FF13DD1C9151E50095064F /* Model */,
@@ -172,6 +183,7 @@
 				88FF13DF1C9151FA0095064F /* Post.swift in Sources */,
 				88FF13CE1C91518D0095064F /* ViewController.swift in Sources */,
 				887192F51C9205BD008D6D9C /* AddPostVC.swift in Sources */,
+				8851C5401C92503D004C066B /* DataService.swift in Sources */,
 				88FF13CC1C91518D0095064F /* AppDelegate.swift in Sources */,
 				88FF13E21C915BA50095064F /* PostCell.swift in Sources */,
 			);
